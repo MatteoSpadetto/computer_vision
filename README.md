@@ -4,6 +4,7 @@ People detection and tracking
 # Assignment2 Computer Vision Course
 
 This software was developed from Matteo Spadetto in order to detect and track people in a given video from MOT challenge.
+In the PDF file a short report about the project.
 
 ## Getting Started
 
