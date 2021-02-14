@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 2.8)
+project(cv_assignment_2)
+find_package(OpenCV REQUIRED)
+include_directories(${OpenCV_INCLUDE_DIRS})
+include_directories(${OpenCV_SOURCE_DIR})
+add_executable(cv_assignment_2 main.cpp)
+target_link_libraries(cv_assignment_2 ${OpenCV_LIBS})
